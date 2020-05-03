@@ -1,8 +1,5 @@
-package SRP.problem;
+package SRP.solution;
 
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,18 +19,6 @@ public class Journal {
 
     public void remove(int index) {
         this.entries.remove(index);
-    }
-
-    public void save(String fileName) throws FileNotFoundException {
-        try (PrintWriter out = new PrintWriter(fileName)) {
-            out.write(toString());
-        }
-    }
-
-    public void load(String fileName) {
-    }
-
-    public void load(URL url) {
     }
 
     @Override
