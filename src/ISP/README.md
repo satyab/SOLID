@@ -1,4 +1,5 @@
-Interface Segregation Principle
+Interface Segregation Principle 
+YAGNI: You Ain't Going to Need It
 
 Problem
 
